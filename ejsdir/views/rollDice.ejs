@@ -1,0 +1,15 @@
+<%- include("includes/head.ejs"); %>
+
+<body>
+    <h1>Dice gave value: <%= diceVal %> </h1>
+    
+    <% if(diceVal == 6){ %>
+    <h2>nice! roll dice again.</h2>
+    <% } %>
+
+    <button>roll dice</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
